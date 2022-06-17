@@ -31,15 +31,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/workspace/Katas"
-  }
-}]]></component>
-  <component name="RunManager" selected="Application.GoogleKickstart2021A">
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../week-5-pair-exercise-team-9/exercise/README.md" />
+  </component>
+  <component name="RunManager" selected="Application.GoogleKickStart2022ASpeedTyping">
+    <configuration name="GoogleKickStart2022ASpeedTyping" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GoogleKickStart2022ASpeedTyping" />
+      <module name="Katas" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GoogleKickstart2021A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GoogleKickstart2021A" />
       <module name="Katas" />
@@ -68,20 +70,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="kataSwapEnds" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kataSwapEnds" />
-      <module name="Katas" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GoogleKickStart2022ASpeedTyping" />
         <item itemvalue="Application.GoogleKickstart2021A" />
         <item itemvalue="Application.kataMain" />
         <item itemvalue="Application.kataInterlockingBinary" />
         <item itemvalue="Application.kataHas12" />
-        <item itemvalue="Application.kataSwapEnds" />
       </list>
     </recent_temporary>
   </component>
