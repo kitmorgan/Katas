@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class GKS2018F_anagramv2 {
+public class GKS2018F_anagram {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int tests = Integer.parseInt(scanner.nextLine());
@@ -26,8 +26,8 @@ public class GKS2018F_anagramv2 {
     public static int getSolution(String[] problem) {
         int counter = 0;
         /** it worked but the wrong way so I flipped A and B */
-        String A = problem[1];
-        String B = problem[0];
+        String A = problem[0];
+        String B = problem[1];
         List<String> substringsOfB = new ArrayList<>();
         List<String> substringsOfA = new ArrayList<>();
         //create list of substrings
@@ -41,12 +41,12 @@ public class GKS2018F_anagramv2 {
         }
 
         // iterate through our substring lists checking to see if piece A is contained in ANY of pieceB regardless of the order as long as sizes are the same
-        for (String pieceB : substringsOfB) {
-            char[] pieceBarray = pieceB.toCharArray();
+        for (String pieceA : substringsOfA) {
+            char[] pieceAarray = pieceA.toCharArray();
 
-            for (String pieceA : substringsOfA) {
+            for (String pieceB : substringsOfB) {
                 int matchingLetters = 0;
-                char[] pieceAarray = pieceA.toCharArray();
+                char[] pieceBarray = pieceB.toCharArray();
                 List<Character> pieceAList = new ArrayList<>();
                 List<Character> pieceBList = new ArrayList<>();
                 // check to see if sizes are equal
