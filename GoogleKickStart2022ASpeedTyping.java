@@ -8,7 +8,6 @@ public class GoogleKickStart2022ASpeedTyping {
         Scanner scanner = new Scanner(System.in);
         int T = Integer.parseInt(scanner.nextLine());
         List<String[]> problems = new ArrayList<>();
-        List<String> answers = new ArrayList<>();
 
         for (int i = 0; i < T; i++) {
             String I = scanner.nextLine();
@@ -25,35 +24,26 @@ public class GoogleKickStart2022ASpeedTyping {
     }
 
     public static String getAnswer(String[] problem) {
-        List<String> input = new ArrayList<>();
-        List<String> produced = new ArrayList<>();
-        for (char ch : problem[1].toCharArray()) {
-            produced.add(String.valueOf(ch));
-        }
-        for (char ch : problem[0].toCharArray()) {
-            input.add(String.valueOf(ch));
-        }
-        int match = 0;
-        int inputIndex = 0;
-        for (int i = 0; i < input.size(); i++) {
-            int counter = 0;
-            do {
-                if (input.get(i).equals(produced.get(counter))) {
-                    match++;
-                    produced.remove(counter);
-                    break;
-                }
-                counter++;
-            } while (counter < produced.size());
-
-        }
-        if (match < input.size()) {
+        char[] perfectArray = problem[0].toCharArray();
+        char[] producedArray = problem[1].toCharArray();
+        int counter = 0;
+        if(producedArray.length < perfectArray.length){
             return "IMPOSSIBLE";
-        } else {
-            return String.valueOf(produced.size());
-
-            // look through I and P for same characters,
-            // if p doesn't have at least I.length similarities return impossible
+        }
+        for(int i = 0, j = 0; j < producedArray.length; j++) {
+            try {
+                if (perfectArray[i] == producedArray[j]) {
+                    i++;
+                    counter++;
+                }
+            }catch (ArrayIndexOutOfBoundsException ob){
+                break;
+            }
+        }
+        if (counter < perfectArray.length) {
+            return "IMPOSSIBLE";
+        }else{
+            return String.valueOf(producedArray.length - perfectArray.length);
         }
     }
 }

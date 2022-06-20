@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34b5e3af-5034-4c79-ad98-ba4c8b2d960e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GKS2018F_anagramv2.java" beforeDir="false" afterPath="$PROJECT_DIR$/GKS2018F_anagram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoogleKickStart2018Fanagram.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Katas/GKS2018F_anagramv2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Katas/GKS2018F_anagramv2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Katas/GoogleKickStart2018Fanagram.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,21 +35,10 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/kitm/Workspace/Katas&quot;
-  }
-}</component>
-  <component name="RunManager" selected="Application.GKS2018F_anagramv2">
-    <configuration name="GKS2018F_anagramv2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GKS2018F_anagramv2" />
-      <module name="Katas" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="Application.GoogleKickStart2022ASpeedTyping">
     <configuration name="GoogleKickStart2018Fanagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GoogleKickStart2018Fanagram" />
       <module name="Katas" />
@@ -66,6 +60,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GoogleKickstart2021AK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GoogleKickstart2021AK" />
+      <module name="Katas" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="kataMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="kataMain" />
       <module name="Katas" />
@@ -75,9 +76,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GKS2018F_anagramv2" />
-        <item itemvalue="Application.GoogleKickStart2018Fanagram" />
         <item itemvalue="Application.GoogleKickStart2022ASpeedTyping" />
+        <item itemvalue="Application.GoogleKickstart2021AK" />
+        <item itemvalue="Application.GoogleKickStart2018Fanagram" />
         <item itemvalue="Application.GoogleKickstart2021A" />
         <item itemvalue="Application.kataMain" />
       </list>
@@ -109,7 +110,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/GoogleKickStart2018Fanagram.java</url>
+          <url>file://$PROJECT_DIR$/GKS2018F_anagram.java</url>
           <line>26</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
