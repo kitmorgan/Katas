@@ -30,7 +30,7 @@ public class GoogleKickStart2022ASpeedTyping {
         if(producedArray.length < perfectArray.length){
             return "IMPOSSIBLE";
         }
-        for(int i = 0, j = 0; j < producedArray.length; j++) {
+        for(int i = 0, j = 0; j < producedArray.length; j++) { // could do j < producedArray.length && i < perfectArray.length;
             try {
                 if (perfectArray[i] == producedArray[j]) {
                     i++;
