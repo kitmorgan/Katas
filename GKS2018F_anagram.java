@@ -25,7 +25,6 @@ public class GKS2018F_anagram {
 
     public static int getSolution(String[] problem) {
         int counter = 0;
-        /** it worked but the wrong way so I flipped A and B */
         String A = problem[0];
         String B = problem[1];
         List<String> substringsOfB = new ArrayList<>();

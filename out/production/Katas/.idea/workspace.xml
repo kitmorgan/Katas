@@ -38,7 +38,7 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.GoogleKickStart2022ASpeedTyping">
+  <component name="RunManager" selected="Application.kataNo23">
     <configuration name="GoogleKickStart2018Fanagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GoogleKickStart2018Fanagram" />
       <module name="Katas" />
@@ -53,13 +53,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GoogleKickstart2021A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GoogleKickstart2021A" />
-      <module name="Katas" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="GoogleKickstart2021AK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GoogleKickstart2021AK" />
       <module name="Katas" />
@@ -67,8 +60,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="kataMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kataMain" />
+    <configuration name="katNoTriples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="katNoTriples" />
+      <module name="Katas" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="kataNo23" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kataNo23" />
       <module name="Katas" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -76,11 +76,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.kataNo23" />
+        <item itemvalue="Application.katNoTriples" />
         <item itemvalue="Application.GoogleKickStart2022ASpeedTyping" />
         <item itemvalue="Application.GoogleKickstart2021AK" />
         <item itemvalue="Application.GoogleKickStart2018Fanagram" />
-        <item itemvalue="Application.GoogleKickstart2021A" />
-        <item itemvalue="Application.kataMain" />
       </list>
     </recent_temporary>
   </component>
@@ -110,9 +110,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/GKS2018F_anagram.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="7" />
+          <url>file://$PROJECT_DIR$/GoogleKickStart2022ASpeedTyping.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
