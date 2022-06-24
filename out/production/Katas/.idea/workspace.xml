@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="34b5e3af-5034-4c79-ad98-ba4c8b2d960e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GKS2018F_anagramv2.java" beforeDir="false" afterPath="$PROJECT_DIR$/GKS2018F_anagram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoogleKickStart2018Fanagram.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Katas/GKS2018F_anagramv2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Katas/GKS2018F_anagramv2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Katas/GoogleKickStart2018Fanagram.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,45 +35,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/workspace/Katas"
-  }
-}]]></component>
-  <component name="RunManager" selected="Application.GoogleKickstart2021A">
-    <configuration name="GoogleKickstart2021A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GoogleKickstart2021A" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="Application.kataNo23">
+    <configuration name="GoogleKickStart2018Fanagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GoogleKickStart2018Fanagram" />
       <module name="Katas" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="kataHas12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kataHas12" />
+    <configuration name="GoogleKickStart2022ASpeedTyping" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GoogleKickStart2022ASpeedTyping" />
       <module name="Katas" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="kataInterlockingBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kataInterlockingBinary" />
+    <configuration name="GoogleKickstart2021AK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GoogleKickstart2021AK" />
       <module name="Katas" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="kataMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kataMain" />
+    <configuration name="katNoTriples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="katNoTriples" />
       <module name="Katas" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="kataSwapEnds" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kataSwapEnds" />
+    <configuration name="kataNo23" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kataNo23" />
       <module name="Katas" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -73,11 +76,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GoogleKickstart2021A" />
-        <item itemvalue="Application.kataMain" />
-        <item itemvalue="Application.kataInterlockingBinary" />
-        <item itemvalue="Application.kataHas12" />
-        <item itemvalue="Application.kataSwapEnds" />
+        <item itemvalue="Application.kataNo23" />
+        <item itemvalue="Application.katNoTriples" />
+        <item itemvalue="Application.GoogleKickStart2022ASpeedTyping" />
+        <item itemvalue="Application.GoogleKickstart2021AK" />
+        <item itemvalue="Application.GoogleKickStart2018Fanagram" />
       </list>
     </recent_temporary>
   </component>
@@ -102,5 +105,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/GoogleKickStart2022ASpeedTyping.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

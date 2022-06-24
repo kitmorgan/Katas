@@ -41,7 +41,6 @@ public class GoogleKickStart2021AL {
                 if (grid[i][j].equals("1")){
                     // find valid segment
                     // save it in List<validSegments> horizontal segments
-                    //
                     // go through it the other way (right now looking at horizontal)
 
                 }
