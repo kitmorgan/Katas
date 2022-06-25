@@ -1,29 +1,16 @@
+import java.util.Arrays;
+
 public class kataMain {
     public static void main(String[] args) {
-        kataGreenTicket kataGreenTicket = new kataGreenTicket();
-        int[] blah = {1, 2, 1};
-        System.out.println(kataGreenTicket.greenTicket(blah));
-    }
-
-    public static int greenTicket(int a, int b, int c) {
-        int[] ticket = {a, b, c};
-        int length = ticket.length;
-
-        for (int i = 0; i < length; i++) {
-            int counter = 0;
-            for (int j = 0; j < length; j++) {
-                if (ticket[i] == ticket[j]) {
-                    counter++;
-                }
-                if (j == length - 1) {
-                    if (counter == 3) {
-                        return 20;
-                    } else if (counter == 2) {
-                        return 10;
-                    }
-                }
-            }
-        }
-        return 0;
+        int[] a = {1, 78, 3};
+        int[] b = {4, 5, 1};
+        int[] out = new int[6];
+        System.arraycopy(a, 0, out, 0, 3);
+        System.arraycopy(b, 0, out, 3, 3);
+        Arrays.sort(out);
+        int[] compare = {1,1,3,4,5,78};
+        System.out.println(Arrays.hashCode(out));
+        System.out.println(Arrays.hashCode(compare));
+        System.out.println(Arrays.toString(out));
     }
 }

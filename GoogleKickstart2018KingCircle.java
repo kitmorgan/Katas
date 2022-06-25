@@ -8,7 +8,7 @@ public class GoogleKickstart2018KingCircle {
     //infinitely long, streets spaced one meter apart, running horizontally and vertically throughout.
     // The horizontal streets are labelled from negative infinity to infinity from top to bottom,
     // while the vertical streets are labelled from negative infinity to infinity from left to right.
-    
+
     //N, V1, H1, A, B, C, D, E, F and M
     //Vi = (A × Vi-1 + B × Hi-1 + C) modulo M V - verticle roads(x axis)
     //Hi = (D × Vi-1 + E × Hi-1 + F) modulo M H - horizontal roads (y axis)
@@ -26,16 +26,17 @@ public class GoogleKickstart2018KingCircle {
             problems.add(scanner.nextLine());
         }
 
-        for (int i = 0; i < 4; i++) {
+        for (int i = 0; i < tests; i++) {
             int answer = getRoutes(findCafes(problems.get(i)));
-            System.out.printf("Case %d: %d\n", i+1, answer);
+            System.out.printf("Case %d: %d\n", i + 1, answer);
         }
     }
+
     // checked against test, works
-    public static List<Integer[]> findCafes(String problem){
+    public static List<Integer[]> findCafes(String problem) {
         String[] input = problem.split(" ");
         List<Integer[]> cafes = new ArrayList<>();
-        Integer[] cafe = {Integer.valueOf(input[1]),Integer.valueOf(input[2])};
+        Integer[] cafe = {Integer.valueOf(input[1]), Integer.valueOf(input[2])};
         cafes.add(cafe);
 
         int n = Integer.parseInt(input[0]);
@@ -48,7 +49,7 @@ public class GoogleKickstart2018KingCircle {
         int e = Integer.parseInt(input[7]);
         int f = Integer.parseInt(input[8]);
         int m = Integer.parseInt(input[9]);
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n - 1; i++) {
             int vCurr = (a * vPrev + b * hPrev + c) % m;
             int hCurr = (d * vPrev + e * hPrev + f) % m;
             cafe = new Integer[]{vCurr, hCurr};
@@ -59,9 +60,8 @@ public class GoogleKickstart2018KingCircle {
         return cafes;
     }
 
-    public static int getRoutes(List<Integer[]> cafes){
-        int counter = 0;
-        HashSet<Integer[]> routes = new HashSet<>();
+    public static int getRoutes(List<Integer[]> cafes) {
+        Set<Integer> routes = new HashSet<>();
         // any two cafes on with matching x or y can make a 
         // cafe with any other cafe
         // adding them to a map as sorted integers should take care of doubles
@@ -69,13 +69,49 @@ public class GoogleKickstart2018KingCircle {
             Integer[] currentCafe = cafes.get(i);
             for (int j = i + 1; j < cafes.size(); j++) {
                 Integer[] comparedCafe = cafes.get(j);
-                if(comparedCafe[0] == currentCafe[0]){
+                int x1 = currentCafe[0];
+                int y1 = currentCafe[1];
+                int x2 = comparedCafe[0];
+                int y2 = comparedCafe[1];
+
+                if (x1 == x2) {
                     // xaxis same, add these two plus every other cafe to the map
-                }else if(comparedCafe[1] == currentCafe[1]){
+                    int height = Math.abs(y1 - y2);
+
+                    for (int k = 0; k < cafes.size(); k++) {
+                        Integer[] lastCafe = cafes.get(k);
+                        int x3 = lastCafe[0];
+                        if (Math.abs(x3 - x1) >= height) {
+                            Integer[] route = new Integer[6];
+                            System.arraycopy(currentCafe, 0, route, 0, 2);
+                            System.arraycopy(comparedCafe, 0, route, 2, 2);
+                            System.arraycopy(lastCafe, 0, route, 4, 2);
+                            Arrays.sort(route);
+                            Integer routeCode = Arrays.hashCode(route);
+                            routes.add(routeCode);
+                        }
+                    }
+
+                } else if (y1 == y2) {
                     // yaxis same
+                    int width = Math.abs(x1 - x2);
+                    for (int k = 0; k < cafes.size(); k++) {
+                        Integer[] lastCafe = cafes.get(k);
+                        int y3 = lastCafe[1];
+                        if (Math.abs(y3 - y1) >= width) {
+                            Integer[] route = new Integer[6];
+                            System.arraycopy(currentCafe, 0, route, 0, 2);
+                            System.arraycopy(comparedCafe, 0, route, 2, 2);
+                            System.arraycopy(lastCafe, 0, route, 4, 2);
+                            Arrays.sort(route);
+                            Integer routeCode = Arrays.hashCode(route);
+                            routes.add(routeCode);
+                        }
+                    }
                 }
+
             }
         }
-        return counter;
+        return routes.size();
     }
 }

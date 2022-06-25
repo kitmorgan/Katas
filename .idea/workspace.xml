@@ -7,9 +7,8 @@
     <list default="true" id="34b5e3af-5034-4c79-ad98-ba4c8b2d960e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GoogleKickstart2018KingCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/GoogleKickstart2018KingCircle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kataMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/kataMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Katas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Katas/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Katas/GKS2018F_anagramv2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Katas/kataNo23.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Katas/kataNo23.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,15 +56,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GoogleKickstart2021AK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GoogleKickstart2021AK" />
+    <configuration name="katNoTriples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="katNoTriples" />
       <module name="Katas" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="katNoTriples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="katNoTriples" />
+    <configuration name="kataMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kataMain" />
       <module name="Katas" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -81,10 +80,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.GoogleKickstart2018KingCircle" />
+        <item itemvalue="Application.kataMain" />
         <item itemvalue="Application.kataNo23" />
         <item itemvalue="Application.katNoTriples" />
         <item itemvalue="Application.GoogleKickStart2022ASpeedTyping" />
-        <item itemvalue="Application.GoogleKickstart2021AK" />
       </list>
     </recent_temporary>
   </component>
@@ -117,6 +116,21 @@
           <url>file://$PROJECT_DIR$/GoogleKickStart2022ASpeedTyping.java</url>
           <line>7</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/GoogleKickstart2018KingCircle.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/GoogleKickstart2018KingCircle.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/GoogleKickstart2018KingCircle.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
