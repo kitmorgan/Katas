@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34b5e3af-5034-4c79-ad98-ba4c8b2d960e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GKS2018F_anagramv2.java" beforeDir="false" afterPath="$PROJECT_DIR$/GKS2018F_anagram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoogleKickStart2018Fanagram.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Katas/GKS2018F_anagramv2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Katas/GKS2018F_anagramv2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Katas/GoogleKickStart2018Fanagram.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoogleKickstart2018KingCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/GoogleKickstart2018KingCircle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Katas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Katas/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Katas/GKS2018F_anagramv2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Katas/kataNo23.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Katas/kataNo23.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +42,7 @@
     &quot;last_opened_file_path&quot;: &quot;D:/workspace/Katas&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.GoogleKickstart2021A">
+  <component name="RunManager" selected="Application.GoogleKickstart2018KingCircle">
     <configuration name="GoogleKickStart2022ASpeedTyping" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GoogleKickStart2022ASpeedTyping" />
       <module name="Katas" />
@@ -51,8 +50,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GoogleKickstart2021A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GoogleKickstart2021A" />
+    <configuration name="GoogleKickstart2018KingCircle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GoogleKickstart2018KingCircle" />
       <module name="Katas" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -81,6 +80,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GoogleKickstart2018KingCircle" />
         <item itemvalue="Application.kataNo23" />
         <item itemvalue="Application.katNoTriples" />
         <item itemvalue="Application.GoogleKickStart2022ASpeedTyping" />
