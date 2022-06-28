@@ -34,15 +34,10 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/workspace/Katas&quot;
-  }
-}</component>
-  <component name="RunManager" selected="Application.GoogleKickstart2018KingCircle">
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../christopher-morgan-student-code/module-2/12_Consuming_RESTful_APIs_Part_2/lecture" />
+  </component>
+  <component name="RunManager" selected="Application.GoogleKickstartPracticeCandy">
     <configuration name="GoogleKickStart2022ASpeedTyping" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GoogleKickStart2022ASpeedTyping" />
       <module name="Katas" />
@@ -57,8 +52,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GoogleKickstart2021AK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GoogleKickstart2021AK" />
+    <configuration name="GoogleKickstartPracticeCandy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GoogleKickstartPracticeCandy" />
       <module name="Katas" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -80,11 +75,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GoogleKickstartPracticeCandy" />
         <item itemvalue="Application.GoogleKickstart2018KingCircle" />
         <item itemvalue="Application.kataNo23" />
         <item itemvalue="Application.katNoTriples" />
         <item itemvalue="Application.GoogleKickStart2022ASpeedTyping" />
-        <item itemvalue="Application.GoogleKickstart2021AK" />
       </list>
     </recent_temporary>
   </component>

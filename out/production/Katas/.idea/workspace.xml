@@ -7,6 +7,9 @@
     <list default="true" id="34b5e3af-5034-4c79-ad98-ba4c8b2d960e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GoogleKickstart2018KingCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/GoogleKickstart2018KingCircle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Katas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Katas/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Katas/GKS2018F_anagramv2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Katas/kataNo23.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Katas/kataNo23.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,15 +34,10 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/workspace/Katas&quot;
-  }
-}</component>
-  <component name="RunManager" selected="Application.GoogleKickstart2021A">
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="Application.GoogleKickstartPracticeCandy">
     <configuration name="GoogleKickStart2022ASpeedTyping" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GoogleKickStart2022ASpeedTyping" />
       <module name="Katas" />
@@ -47,15 +45,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GoogleKickstart2021A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GoogleKickstart2021A" />
+    <configuration name="GoogleKickstart2018KingCircle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GoogleKickstart2018KingCircle" />
       <module name="Katas" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GoogleKickstart2021AK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GoogleKickstart2021AK" />
+    <configuration name="GoogleKickstartPracticeCandy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GoogleKickstartPracticeCandy" />
       <module name="Katas" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -77,11 +75,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GoogleKickstart2021A" />
+        <item itemvalue="Application.GoogleKickstartPracticeCandy" />
+        <item itemvalue="Application.GoogleKickstart2018KingCircle" />
         <item itemvalue="Application.kataNo23" />
         <item itemvalue="Application.katNoTriples" />
         <item itemvalue="Application.GoogleKickStart2022ASpeedTyping" />
-        <item itemvalue="Application.GoogleKickstart2021AK" />
       </list>
     </recent_temporary>
   </component>
