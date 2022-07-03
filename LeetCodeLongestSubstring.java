@@ -1,26 +1,25 @@
+import java.util.HashSet;
+
 public class LeetCodeLongestSubstring {
     public int lengthOfLongestSubstring(String s) {
         int[] chars = new int[128];
 
-        int left = 0;
-        int right = 0;
+        int i = 0;
+        int j = 0;
 
-        int res = 0;
+        int longest = 0;
+        HashSet<Character> hashSet = new HashSet<>();
 
-        while (right < s.length()) {
-            char r = s.charAt(right);
-            chars[r]++;
-
-            while(chars[r] > 1){
-                char l = s.charAt(left);
-                chars[l]--;
-                left++;
+        while(j < s.length()){
+            if(!hashSet.contains(s.charAt(j))){
+                hashSet.add(s.charAt(j));
+                j++;
+                longest = Math.max(hashSet.size(), longest);
+            }else {
+                hashSet.remove(s.charAt(i));
+                i++;
             }
-
-            res = Math.max(res, right - left + 1);
-
-            right++;
         }
-        return res;
+        return longest;
     }
 }
