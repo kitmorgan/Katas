@@ -7,7 +7,13 @@
     <list default="true" id="34b5e3af-5034-4c79-ad98-ba4c8b2d960e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GoogleKickstart2018KingCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/GoogleKickstart2018KingCircle.java" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/out/production/Katas/GoogleKickstart2018KingCircle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Katas/GoogleKickstart2018KingCircle.class" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/out/production/Katas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Katas/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Katas/GKS2018F_anagramv2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Katas/kataNo23.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Katas/kataNo23.class" afterDir="false" />
+>>>>>>> e7cc963b23f394d99c9e392f4d650da0c74a7059
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +38,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
@@ -43,6 +50,28 @@
   <component name="RunManager" selected="Application.testing">
     <configuration name="GoogleKickstart2018KingCircle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GoogleKickstart2018KingCircle" />
+=======
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="Application.GoogleKickstartPracticeCandy">
+    <configuration name="GoogleKickStart2022ASpeedTyping" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GoogleKickStart2022ASpeedTyping" />
+      <module name="Katas" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GoogleKickstart2018KingCircle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GoogleKickstart2018KingCircle" />
+      <module name="Katas" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GoogleKickstartPracticeCandy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GoogleKickstartPracticeCandy" />
+>>>>>>> e7cc963b23f394d99c9e392f4d650da0c74a7059
       <module name="Katas" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -78,11 +107,19 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="Application.testing" />
         <item itemvalue="Application.GoogleKickstart2018KingCircle" />
         <item itemvalue="Application.kataMain" />
         <item itemvalue="Application.kataNo23" />
         <item itemvalue="Application.katNoTriples" />
+=======
+        <item itemvalue="Application.GoogleKickstartPracticeCandy" />
+        <item itemvalue="Application.GoogleKickstart2018KingCircle" />
+        <item itemvalue="Application.kataNo23" />
+        <item itemvalue="Application.katNoTriples" />
+        <item itemvalue="Application.GoogleKickStart2022ASpeedTyping" />
+>>>>>>> e7cc963b23f394d99c9e392f4d650da0c74a7059
       </list>
     </recent_temporary>
   </component>

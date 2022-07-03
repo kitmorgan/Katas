@@ -50,6 +50,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
@@ -59,6 +60,19 @@
   }
 }</component>
   <component name="RunManager" selected="Application.kataMain">
+=======
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../christopher-morgan-student-code/module-2/12_Consuming_RESTful_APIs_Part_2/lecture" />
+  </component>
+  <component name="RunManager" selected="Application.GoogleKickstartPracticeCandy">
+    <configuration name="GoogleKickStart2022ASpeedTyping" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GoogleKickStart2022ASpeedTyping" />
+      <module name="Katas" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+>>>>>>> e7cc963b23f394d99c9e392f4d650da0c74a7059
     <configuration name="GoogleKickstart2018KingCircle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GoogleKickstart2018KingCircle" />
       <module name="Katas" />
@@ -66,6 +80,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
+=======
+    <configuration name="GoogleKickstartPracticeCandy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GoogleKickstartPracticeCandy" />
+      <module name="Katas" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+>>>>>>> e7cc963b23f394d99c9e392f4d650da0c74a7059
     <configuration name="katNoTriples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="katNoTriples" />
       <module name="Katas" />
@@ -96,11 +120,19 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="Application.kataMain" />
         <item itemvalue="Application.testing" />
         <item itemvalue="Application.GoogleKickstart2018KingCircle" />
         <item itemvalue="Application.kataNo23" />
         <item itemvalue="Application.katNoTriples" />
+=======
+        <item itemvalue="Application.GoogleKickstartPracticeCandy" />
+        <item itemvalue="Application.GoogleKickstart2018KingCircle" />
+        <item itemvalue="Application.kataNo23" />
+        <item itemvalue="Application.katNoTriples" />
+        <item itemvalue="Application.GoogleKickStart2022ASpeedTyping" />
+>>>>>>> e7cc963b23f394d99c9e392f4d650da0c74a7059
       </list>
     </recent_temporary>
   </component>
