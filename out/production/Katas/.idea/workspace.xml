@@ -37,14 +37,7 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.GoogleKickstartPracticeCandy">
-    <configuration name="GoogleKickStart2022ASpeedTyping" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GoogleKickStart2022ASpeedTyping" />
-      <module name="Katas" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.kataMain">
     <configuration name="GoogleKickstart2018KingCircle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GoogleKickstart2018KingCircle" />
       <module name="Katas" />
@@ -66,6 +59,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="kataMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kataMain" />
+      <module name="Katas" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="kataNo23" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="kataNo23" />
       <module name="Katas" />
@@ -75,11 +75,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.kataMain" />
         <item itemvalue="Application.GoogleKickstartPracticeCandy" />
         <item itemvalue="Application.GoogleKickstart2018KingCircle" />
         <item itemvalue="Application.kataNo23" />
         <item itemvalue="Application.katNoTriples" />
-        <item itemvalue="Application.GoogleKickStart2022ASpeedTyping" />
       </list>
     </recent_temporary>
   </component>
@@ -112,6 +112,21 @@
           <url>file://$PROJECT_DIR$/GoogleKickStart2022ASpeedTyping.java</url>
           <line>7</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/kataMain.java</url>
+          <line>3</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetCodeLongestSubstring.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/HackerRankTime.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
