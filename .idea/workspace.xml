@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34b5e3af-5034-4c79-ad98-ba4c8b2d960e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Katas.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Katas.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoogleKickstart2018KingCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/GoogleKickstart2018KingCircle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Katas/.idea/Katas.iml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Katas/.idea/Katas.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Katas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Katas/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Katas/GKS2018F_anagramv2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Katas/kataNo23.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Katas/kataNo23.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Katas/GoogleKickstartPracticeCandy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Katas/GoogleKickstartPracticeCandy.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,13 +62,16 @@
     </configuration>
     <configuration name="kataMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="kataMain" />
+  <component name="RunManager" selected="Kotlin.LeetCodePalindromicSubStringKt">
+    <configuration name="LeetCodePalindromicSubStringKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCodePalindromicSubStringKt" />
       <module name="Katas" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="kataNo23" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kataNo23" />
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainKt" />
       <module name="Katas" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -80,6 +84,8 @@
         <item itemvalue="Application.GoogleKickstartPracticeCandy" />
         <item itemvalue="Application.GoogleKickstart2018KingCircle" />
         <item itemvalue="Application.kataNo23" />
+        <item itemvalue="Kotlin.LeetCodePalindromicSubStringKt" />
+        <item itemvalue="Kotlin.MainKt" />
       </list>
     </recent_temporary>
   </component>
@@ -127,6 +133,30 @@
           <url>file://$PROJECT_DIR$/HackerRankTime.java</url>
           <line>7</line>
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+          <url>file://$PROJECT_DIR$/GoogleKickstart2018KingCircle.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/GoogleKickstart2018KingCircle.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/GoogleKickstart2018KingCircle.java</url>
+          <line>98</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LeetCodeLongestSubstring.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/LeetCodePalindromicSubString.kt</url>
+          <line>7</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

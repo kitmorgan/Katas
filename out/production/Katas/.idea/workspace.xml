@@ -7,9 +7,25 @@
     <list default="true" id="34b5e3af-5034-4c79-ad98-ba4c8b2d960e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GoogleKickstart2018KingCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/GoogleKickstart2018KingCircle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Katas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Katas/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Katas/GKS2018F_anagramv2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Katas/kataNo23.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Katas/kataNo23.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kataMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/kataMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Katas/.idea/Katas.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Katas/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Katas/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Katas/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Katas/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Katas/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Katas/GKS2018F_anagram.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Katas/GoogleKickStart2021AL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Katas/GoogleKickStart2022ASpeedTyping.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Katas/GoogleKickstart2018KingCircle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Katas/GoogleKickstart2021AK.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Katas/katNoTriples.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Katas/kataGreenTicket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Katas/kataHas12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Katas/kataInterlockingBinary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Katas/kataMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Katas/kataNo23.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Katas/kataSwapEnds.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,24 +50,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager" selected="Application.kataMain">
     <configuration name="GoogleKickstart2018KingCircle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GoogleKickstart2018KingCircle" />
+=======
+
+    <configuration name="katNoTriples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="katNoTriples" />
       <module name="Katas" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GoogleKickstartPracticeCandy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GoogleKickstartPracticeCandy" />
+    <configuration name="kataMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kataMain" />
+>>>>>>> 817c31e4be305eae295e42635cc46cb03aad43c4
       <module name="Katas" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="kataNo23" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kataNo23" />
+      <module name="Katas" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+<<<<<<< HEAD
     <configuration name="katNoTriples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="katNoTriples" />
       <module name="Katas" />
@@ -68,6 +98,10 @@
     </configuration>
     <configuration name="kataNo23" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="kataNo23" />
+=======
+    <configuration name="testing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testing" />
+>>>>>>> 817c31e4be305eae295e42635cc46cb03aad43c4
       <module name="Katas" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -82,7 +116,6 @@
         <item itemvalue="Application.katNoTriples" />
       </list>
     </recent_temporary>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -114,6 +147,7 @@
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
+<<<<<<< HEAD
           <url>file://$PROJECT_DIR$/kataMain.java</url>
           <line>3</line>
           <option name="timeStamp" value="10" />
@@ -127,6 +161,26 @@
           <url>file://$PROJECT_DIR$/HackerRankTime.java</url>
           <line>5</line>
           <option name="timeStamp" value="12" />
+=======
+          <url>file://$PROJECT_DIR$/GoogleKickstart2018KingCircle.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/GoogleKickstart2018KingCircle.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/GoogleKickstart2018KingCircle.java</url>
+          <line>98</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LeetCodeLongestSubstring.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="15" />
+>>>>>>> 817c31e4be305eae295e42635cc46cb03aad43c4
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
